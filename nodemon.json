@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "MaharshSuryawala",
+        "MONGO_PASSWORD": "bI86dC9Sa1HBY1PY",
+        "MONGO_DB": "ToDoApplicationDatabase"
+    }
+}

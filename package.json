@@ -1,0 +1,19 @@
+{
+  "name": "to-do-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maharsh Suryawala",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
