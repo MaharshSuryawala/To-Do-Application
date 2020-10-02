@@ -30,4 +30,23 @@ module.exports = {
       throw error
     }
   },
+
+  updateToDo: async ({_id, todo}) => {
+    try {
+      const updatedTodo = await ToDo.findByIdAndUpdate(_id, todo)
+      return updatedTodo
+    } catch (error) {
+      throw error
+    }
+  },
+
+  deleteToDo: async ({_id}) => {
+    try{
+      const removedTodo = await ToDo.findByIdAndRemove(_id);
+      return removedTodo;
+    }
+    catch(error){
+      throw error
+    }
+  }
 }

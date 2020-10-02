@@ -23,6 +23,8 @@ module.exports = buildSchema(`
 
   type Mutation {
     createToDo(todo:ToDoInput): ToDo
+    deleteToDo(_id: ID!): ToDo
+    updateToDo(_id: ID!, todo:ToDoInput): ToDo
   }
 
   schema {
