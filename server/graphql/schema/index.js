@@ -4,7 +4,6 @@ module.exports = buildSchema(`
 
   type ToDo {
     _id: ID!
-    name: String!
     body: String!
     status: Boolean!
     createdAt: String!
@@ -12,7 +11,6 @@ module.exports = buildSchema(`
 
 
   input ToDoInput {
-    name: String!
     body: String!
     status: Boolean!
   }

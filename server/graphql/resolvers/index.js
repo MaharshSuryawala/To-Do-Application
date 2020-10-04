@@ -18,9 +18,8 @@ module.exports = {
 
   createToDo: async args => {
     try {
-      const { name, body, status } = args.todo
+      const { body, status } = args.todo
       const todo = new ToDo({
-        name,
         body,
         status
       })
